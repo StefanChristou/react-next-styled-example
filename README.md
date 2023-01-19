@@ -1,30 +1,36 @@
 This is a take home technical test centered on next.js, React and styled components. The task is to build a page with a list of filterable search results and a notification popup invoked from a button in the nav-bar.
 
 ## Production server
+
 https://react-next-styled-example.vercel.app/
 
 ## Staging
-Branches will be created automatically in each pull request. Look for the Vercel link in the relevant pull request. 
+
+Branches will be created automatically in each pull request. Look for the Vercel link in the relevant pull request.
 
 ## Node version
+
 ### v16.14.2
 
 Use `nvm` to install the correct version of node.
 
 ## Install dependencies
+
 ```bash
 npm install
 ```
 
 ## Run tests
+
 ```bash
 npm run test
-````
+```
 
 ## Lint
+
 ```bash
 npm run lint
-````
+```
 
 ## Getting Started
 
