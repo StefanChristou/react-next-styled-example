@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Lint, prettier, jest, build
 
 on:
   push:
@@ -24,4 +24,3 @@ jobs:
       - run: npm run lint
       - run: npm run prettier:check
       - run: npm run test:ci
-      - run: npm run build --if-present
