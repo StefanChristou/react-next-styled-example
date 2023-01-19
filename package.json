@@ -11,8 +11,10 @@
     "test:ci": "jest --ci",
     "cypress": "cypress open",
     "cypress:headless": "cypress run",
+    "percy:cypress": "percy exec -- cypress run",
     "e2e": "start-server-and-test start http://localhost:3000 cypress",
     "e2e:headless": "start-server-and-test start http://localhost:3000 cypress:headless",
+    "percy:ci": "start-server-and-test start http://localhost:3000 percy:cypress",
     "prettier:write": "npx prettier --write .",
     "prettier:check": "npx prettier --check ."
   },
@@ -29,6 +31,8 @@
     "typescript": "4.9.4"
   },
   "devDependencies": {
+    "@percy/cli": "^1.17.0",
+    "@percy/cypress": "^3.1.2",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "cypress": "^12.3.0",
